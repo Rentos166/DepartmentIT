@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8a32b57f5a884424b834445e65971722" Name="Diagram1">
+        <EntityTypeShape EntityType="DepartmentITModel.DepartmentIT" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.Dorms" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.InformationSecurityCenter" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.Institutions" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.TechnicalSupportCenter" Width="1.5" PointX="6" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DepartmentITModel.Users" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="DepartmentITModel.FK_InformationSecurityCenter_Dorms" ManuallyRouted="false" />
+        <AssociationConnector Association="DepartmentITModel.FK_TechnicalSupportCenter_Dorms" ManuallyRouted="false" />
+        <AssociationConnector Association="DepartmentITModel.FK_InformationSecurityCenter_Institutions" ManuallyRouted="false" />
+        <AssociationConnector Association="DepartmentITModel.FK_TechnicalSupportCenter_Institutions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
